@@ -1,0 +1,22 @@
+{
+    "name": "czende/coding-standard",
+    "description": "Coding standard configuration for contributors.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Czernin",
+            "email": "jan.czernin@gmail.com",
+            "homepage": "http://janczernin.cz"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+
+        "symplify/easy-coding-standard": "^4.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\CodingStandard\\": "tests/"
+        }
+    }
+}
