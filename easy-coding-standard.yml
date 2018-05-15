@@ -34,6 +34,7 @@ services:
     PhpCsFixer\Fixer\ClassNotation\NoNullPropertyInitializationFixer: {}
     PhpCsFixer\Fixer\ClassNotation\NoPhp4ConstructorFixer: {}
     PhpCsFixer\Fixer\ClassNotation\NoUnneededFinalMethodFixer: {}
+    PhpCsFixer\Fixer\ClassNotation\OrderedClassElementsFixer: {}
     PhpCsFixer\Fixer\ClassNotation\ProtectedToPrivateFixer: {}
     PhpCsFixer\Fixer\ClassNotation\SelfAccessorFixer: {}
     PhpCsFixer\Fixer\ClassNotation\SingleClassElementPerStatementFixer: {}
